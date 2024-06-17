@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Bluetooth module.PrjPcb]
+   Generated File[Copy of PCB1.TXT]
+   Generated File[Copy of PCB1.LDP]
+   Generated File[Copy of PCB1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:17:50 PM On 7/19/2023
