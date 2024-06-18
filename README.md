@@ -12,6 +12,7 @@ The repository is organized as follows:
 - `wireless_switch_module/`: Contains PCB files for a wireless switch module.
 - `bluetooth_module/`: Contains PCB files for a Bluetooth module.
 
+
 ## Plug Base
 ### Components
 - **CD4041**: CMOS quad NAND Schmitt trigger inverter, used likely as an inverter or buffer.
@@ -20,6 +21,7 @@ The repository is organized as follows:
 - **Capacitors**: Used to store electrical energy (value not shown).
 - **Power Supply**: Provides voltage of 3V and VCC.
 - **Module Connection (P2 and P3)**: Interfaces where the different modules plug into the base.
+
 
 ## Timer Module
 ### Components
@@ -31,6 +33,7 @@ The repository is organized as follows:
 - **Status LED**: Indicates the timer state (on or off).
 - **Trigger Input**: Used to reset or start the timer.
 
+
 ## Set Timer Module
 ### Components
 - **IC1 (555 Timer)**: Functions as a voltage-controlled timer in a monostable configuration.
@@ -40,6 +43,7 @@ The repository is organized as follows:
 - **LED1**: Visual indicator of timer status.
 - **Output (OUT)**: Controls a relay or switching device for the outlet.
 
+
 ## Wireless Switch Module
 ### Components
 - **IC1 (CD4017BE)**: CMOS IC with decade counter/divider stages, used to decode wireless signals.
@@ -48,6 +52,7 @@ The repository is organized as follows:
 - **Receiver (DI)**: Antenna or receiver circuit for the wireless signal.
 - **Output (OUT)**: Controls a relay or switching device for the outlet.
 - **Status LED**: Indicates the receiver module state (on or off).
+
 
 ## Bluetooth Module
 ### Components
@@ -61,11 +66,7 @@ The repository is organized as follows:
 - **Connection Pins (PBO - P5)**: Connect the Bluetooth module to the main plug base unit.
 
 ## Usage
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/smart-plug-base-system.git
-   cd smart-plug-base-system
-2. **Navigate to the Desired Module**:
+1. **Navigate to the Desired Module**:
   cd plug_base
   # or
   cd timer_module
@@ -75,6 +76,7 @@ The repository is organized as follows:
   cd wireless_switch_module
   # or
   cd bluetooth_module
+  
 3. **Open the PCB Files**:
 Use Altium PCB design software to open files.
 
