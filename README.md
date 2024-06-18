@@ -12,8 +12,14 @@ The repository is organized as follows:
 - `wireless_switch_module/`: Contains PCB files for a wireless switch module.
 - `bluetooth_module/`: Contains PCB files for a Bluetooth module.
 
+- [`plug_base/`](#Plug-Base)
+- [`timer_module/`](#Timer-Module)
+- [`set_timer_module/`](#Set-Timer-Module)
+- [`wireless_switch_module/`](#Wireless-Switch-Module)
+- [`bluetooth_module/`](#Bluetooth-Module)
 
-## Plug Base
+
+## Plug-Base
 ### Components
 - **CD4041**: CMOS quad NAND Schmitt trigger inverter, used likely as an inverter or buffer.
 - **Relay**: Electromagnetic switch controlled by an electrical signal to open or close contacts.
@@ -23,7 +29,7 @@ The repository is organized as follows:
 - **Module Connection (P2 and P3)**: Interfaces where the different modules plug into the base.
 
 
-## Timer Module
+## Timer-Module
 ### Components
 - **CD4011BE**: Quad NAND gate IC, likely used in the timer functionality.
 - **Resistors (R1 and R2)**: Limit current flow (values determine current).
@@ -34,7 +40,7 @@ The repository is organized as follows:
 - **Trigger Input**: Used to reset or start the timer.
 
 
-## Set Timer Module
+## Set-Timer-Module
 ### Components
 - **IC1 (555 Timer)**: Functions as a voltage-controlled timer in a monostable configuration.
 - **Resistors (R1 and R2)**: Work with C1 to determine timer duration.
@@ -44,7 +50,7 @@ The repository is organized as follows:
 - **Output (OUT)**: Controls a relay or switching device for the outlet.
 
 
-## Wireless Switch Module
+## Wireless-Switch-Module
 ### Components
 - **IC1 (CD4017BE)**: CMOS IC with decade counter/divider stages, used to decode wireless signals.
 - **Resistors (R1, R2, R3, R4)**: Limit current and set voltage levels.
@@ -54,7 +60,7 @@ The repository is organized as follows:
 - **Status LED**: Indicates the receiver module state (on or off).
 
 
-## Bluetooth Module
+## Bluetooth-Module
 ### Components
 - **Microcontroller (U1)**: Controls the Bluetooth module and communicates with other devices.
 - **Crystal (Y1)**: Provides precise oscillating signal for synchronization.
@@ -66,17 +72,18 @@ The repository is organized as follows:
 - **Connection Pins (PBO - P5)**: Connect the Bluetooth module to the main plug base unit.
 
 ## Usage
-1. **Navigate to the Desired Module**:
-  cd plug_base
-  # or
-  cd timer_module
-  # or
-  cd set_timer_module
-  # or
-  cd wireless_switch_module
-  # or
-  cd bluetooth_module
+### **Navigate to the Desired Module/PlugBase**:
+  1. [Plug Base](./1.%20Plug%20Base)
+  or
+  2. [Reprogrammable Timer](./2.%20Reprogrammable%20Timer) 
+  or
+  3. [Set Timer](./3.%20Set%20Timer)  
+  or
+  4. [Wireless Switch](./4.%20Wireless%20Switch) 
+  or
+  5. [Bluetooth module](./5.%20Bluetooth%20module) 
+
   
-3. **Open the PCB Files**:
+### **Open the PCB Files**:
 Use Altium PCB design software to open files.
 
