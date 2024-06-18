@@ -6,11 +6,11 @@ This repository contains the PCBs of plug base and the modules that can be used 
 ## Project Structure
 The repository is organized as follows:
 
-- [`plug_base`](#Plug_Base) : Contains PCB files for the plug base that the various modules will connect to.
-- [`timer_module`](#Timer_Module) : Contains PCB files for a reprogrammable timer module.
-- [`set_timer_module`](#Set_Timer_Module) : Contains PCB files for a set timer module.
-- [`wireless_switch_module`](#Wireless_Switch_Module) : Contains PCB files for a wireless switch module.
-- [`bluetooth_module`](#Bluetooth_Module) : Contains PCB files for a Bluetooth module.
+- [plug_base](#Plug_Base) : Contains PCB files for the plug base that the various modules will connect to.
+- [timer_module](#Timer_Module) : Contains PCB files for a reprogrammable timer module.
+- [set_timer_module](#Set_Timer_Module) : Contains PCB files for a set timer module.
+- [wireless_switch_module](#Wireless_Switch_Module) : Contains PCB files for a wireless switch module.
+- [bluetooth_module](#Bluetooth_Module) : Contains PCB files for a Bluetooth module.
 
 
 ## Plug_Base
@@ -67,11 +67,11 @@ The repository is organized as follows:
 
 ## Usage
 ### **Navigate to the Desired Module/PlugBase**:
-  1. [Plug Base](./1.%20Plug%20Base)
-  2. [Reprogrammable Timer](./2.%20Reprogrammable%20Timer)
-  4. [Set Timer](./3.%20Set%20Timer)
-  5. [Wireless Switch](./4.%20Wireless%20Switch)
-  6. [Bluetooth module](./5.%20Bluetooth%20module)
+  1. [`Plug Base`](./1.%20Plug%20Base)
+  2. [`Reprogrammable Timer`](./2.%20Reprogrammable%20Timer)
+  4. [`Set Timer`](./3.%20Set%20Timer)
+  5. [`Wireless Switch`](./4.%20Wireless%20Switch)
+  6. [`Bluetooth module`](./5.%20Bluetooth%20module)
 
   
 ### **Open the PCB Files**:
