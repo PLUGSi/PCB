@@ -73,7 +73,7 @@ The repository is organized as follows:
   5. [`Wireless Switch`](./4.%20Wireless%20Switch)
   6. [`Bluetooth module`](./5.%20Bluetooth%20module)
 
-### Dimensions and Pictures
+### Base and Moduels
 
 <table>
   <tr>
@@ -81,11 +81,11 @@ The repository is organized as follows:
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/484445d3-7790-47af-830a-191ace101f9c" width="100%" /><br>Wireless Module</td>
-    <td><img src="https://github.com/user-attachments/assets/10953dca-7959-471f-84c0-9ac3f928934e" width="100%" /><br>Set Timer</td>
+    <td><img src="https://github.com/user-attachments/assets/10953dca-7959-471f-84c0-9ac3f928934e" width="100%" /><br>Set Timer Module</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/f03e53ba-3999-4042-910d-eb45fda7cc6d" width="100%" /><br>Reprogrammable Timer</td>
-    <td><img src="https://github.com/user-attachments/assets/f49d6d88-45dd-4c1a-b65d-317c22c8f7e8" width="100%" /><br>Bluetooth</td>
+    <td><img src="https://github.com/user-attachments/assets/f03e53ba-3999-4042-910d-eb45fda7cc6d" width="100%" /><br>Reprogrammable Timer Module</td>
+    <td><img src="https://github.com/user-attachments/assets/f49d6d88-45dd-4c1a-b65d-317c22c8f7e8" width="100%" /><br>Bluetooth Module</td>
   </tr>
 </table>
 
